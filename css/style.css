@@ -49,8 +49,8 @@ p{
 .btn-danger{
     background: var(--bg-danger);
     border-color: var(--bg-danger);
-    padding: 0.8rem 1.5rem;
-    font-size: 1rem;
+    padding: 0.8rem 0.9rem;
+    font-size: 0.9rem;
     font-weight: 500;
 }
 
@@ -75,7 +75,64 @@ p{
     color: var(--bg-danger);
 }
 
-/* #header .navbar-toggler-icon{
-    width: unset;
-    height: unset;
-} */
+#header .ri-menu-line{
+   font-size: 1.555rem;
+}
+
+#header .navbar-toggler{
+    box-shadow: none;
+    border: none;
+}
+
+#header .navbar-toggler:focus{
+    box-shadow: none;
+    border: none;
+ }
+
+ /* Home CSS */
+
+ .home .home-banner-1{
+    background-image: url('/img/slide1.jpg');
+ }
+
+ .home .home-banner-2{
+    background-image: url('/img/slide2.jpg');
+ }
+
+.home .home-banner-1,
+.home .home-banner-2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% center;
+    min-height: 550px;
+    position: relative;
+}
+
+.home .home-banner .home-banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110% , -50%);
+
+}
+
+.home .home-banner .home-banner-text h1{
+    font-size: 4rem;
+}
+
+.home .carousel-indicators [data-bs-target]{
+    background-color: var(--bg-danger);
+    width: 2.5rem;
+    height: 0.31rem;
+}
+
+.home .carousel-control-next-icon,
+.home .carousel-control-prev-icon{
+    background-color: transparent;
+}
+
+.home .slider-icon{
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--text-danger);
+}

@@ -48,15 +48,34 @@ p{
 
 .btn-danger{
     background: var(--bg-danger);
-    color: var(--bg-danger);
+    border-color: var(--bg-danger);
     padding: 0.8rem 1.5rem;
     font-size: 1rem;
     font-weight: 500;
 }
 
 .btn-danger:hover{
-    background: var(--bg-danger);
+    background: transparent;
     color: var(--bg-danger);
 }
 
 /* Nav */
+#header .fixed-top{
+    box-shadow: 0 0.125rem 0.675rem rgb(0 0 0 /5%);
+}
+
+#header .navbar-nav .nav-item .nav-link{
+    color: var(--text-black);
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+#header .navbar-nav .nav-item .nav-link:hover,
+#header .navbar-nav .nav-item .nav-link:active{
+    color: var(--bg-danger);
+}
+
+/* #header .navbar-toggler-icon{
+    width: unset;
+    height: unset;
+} */

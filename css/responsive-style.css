@@ -46,6 +46,16 @@
     .home .slider-icon{
         font-size: 2rem;
     }
+
+    .products .up_to_content h2{
+        color: var(--bg-white);
+        font-size: 13px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        z-index: 3;
+    } 
 }
 
 

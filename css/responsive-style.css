@@ -25,6 +25,16 @@
         padding-bottom: 5rem;
         
     }
+
+    .testimonial .carousel-control-prev{
+
+        left:-1.75rem
+    }
+    
+    .testimonial .carousel-control-next{
+        
+        right:-1.75rem
+    }
 }
 
 
@@ -72,10 +82,20 @@
     }
 
     .special .countdown-container .countdown-counter li{
-        padding: 1rem;
-        display: inline-flex;
-        width: 100%;
+        padding: 0.1rem;
+        width: 18%;
     }
+    .testimonial .testimonial-wrapper{
+        padding: 1rem;
+    }
+
+    .testimonial .carousel-control-prev,
+    .testimonial .carousel-control-next{
+        display: none;
+    }
+        
+      
+    
 }
 
 
@@ -83,4 +103,9 @@
     .home .home-banner .home-banner-text h2{
         font-size: 1rem;
     }
+
+    .products .up_to_content h2{
+        font-size: 0.635rem;
+    } 
+
 }

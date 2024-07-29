@@ -376,3 +376,68 @@ p{
     z-index: 3;
 } 
  
+
+/*Special CSS*/
+
+.special{
+    padding: 6rem 0;
+    background: var(--bg-light-white);
+}
+
+
+.special .countdown-container{
+    padding: 4.375rem;
+}
+
+.special .countdown-container p{
+    color: var(--text-dark-grey);
+    font-weight: 300;
+    line-height: 1.8rem;
+}
+
+.special .countdown-container .countdown.counter{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1.875rem;
+
+}
+
+.special .countdown-container .countdown-counter li{
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--bg-white);
+    border-radius: 0.313rem;
+    padding: 2rem 1rem;
+    width: 15%;
+    margin: 0 0.313rem;
+}
+
+.special .countdown-container .countdown-counter li span{
+    font-weight: 500;
+}
+
+.special .countdown-container .countdown-price del{
+    color: var(--text-grey);
+    font-size: 1rem;
+
+}
+
+.special .special-img span{
+    background-color: var(--bg-danger);
+    border-radius: 0.313rem;
+    color: var(--text-color);
+    font-size: 0.813rem;
+    letter-spacing: 0.125rem;
+    line-height: 1.563rem;
+    padding: 0.125rem 0.183rem;
+    text-transform: uppercase;
+    position: absolute;
+    left: 1rem;
+    top: 1.883rem;
+    z-index: 99;
+    cursor: pointer;
+}

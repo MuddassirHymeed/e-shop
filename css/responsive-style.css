@@ -8,12 +8,22 @@
     .home .home-banner .home-banner-text{
         transform: translate(-80% , -50%);
     }
+
+    .special .countdown-container .countdown-counter li{
+       padding: 1.5rem 1rem;
+    }
 }
 
 
 @media (max-width:991px) {
     .home .home-banner .home-banner-text{
         transform: translate(-66% , -50%);
+    }
+
+    .special .countdown-container{
+        padding-top: 1rem;
+        padding-bottom: 5rem;
+        
     }
 }
 
@@ -56,6 +66,16 @@
         transform: translate(-50% , -50%);
         z-index: 3;
     } 
+
+    .special{
+        padding: 4rem 0;
+    }
+
+    .special .countdown-container .countdown-counter li{
+        padding: 1rem;
+        display: inline-flex;
+        width: 100%;
+    }
 }
 
 

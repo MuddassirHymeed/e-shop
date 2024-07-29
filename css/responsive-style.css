@@ -1,111 +1,119 @@
 @media (max-width: 1030px) {
+
     .home .home-banner-1,
-    .home .home-banner-2{
+    .home .home-banner-2 {
         background-position: 65% center;
         min-height: 500px;
     }
 
-    .home .home-banner .home-banner-text{
-        transform: translate(-80% , -50%);
+    .home .home-banner .home-banner-text {
+        transform: translate(-80%, -50%);
     }
 
-    .special .countdown-container .countdown-counter li{
-       padding: 1.5rem 1rem;
+    .special .countdown-container .countdown-counter li {
+        padding: 1.5rem 1rem;
     }
 }
 
 
 @media (max-width:991px) {
-    .home .home-banner .home-banner-text{
-        transform: translate(-66% , -50%);
+    .home .home-banner .home-banner-text {
+        transform: translate(-66%, -50%);
     }
 
-    .special .countdown-container{
+    .special .countdown-container {
         padding-top: 1rem;
         padding-bottom: 5rem;
-        
+
     }
 
-    .testimonial .carousel-control-prev{
+    .testimonial .carousel-control-prev {
 
-        left:-1.75rem
+        left: -1.75rem
     }
-    
-    .testimonial .carousel-control-next{
-        
-        right:-1.75rem
+
+    .testimonial .carousel-control-next {
+
+        right: -1.75rem
     }
 }
 
 
 @media (max-width:767px) {
+
     .home .home-banner-1,
-    .home .home-banner-2{
+    .home .home-banner-2 {
         background-position: 50% center;
         min-height: 400px;
     }
 
-    .home .home-banner .home-banner-text{
+    .home .home-banner .home-banner-text {
         width: 100%;
         text-align: center;
-        transform: translate(-50% , -50%);
+        transform: translate(-50%, -50%);
     }
 
-    .home .home-banner .home-banner-text h1{
+    .home .home-banner .home-banner-text h1 {
         font-size: 3rem;
     }
 
-    .home .home-banner .home-banner-text h2{
+    .home .home-banner .home-banner-text h2 {
         font-size: 1.2rem;
     }
 
-    .home .home-banner .home-banner-text .btn-danger{
+    .home .home-banner .home-banner-text .btn-danger {
         padding: 0.5rem 1rem;
     }
 
-    .home .slider-icon{
+    .home .slider-icon {
         font-size: 2rem;
     }
 
-    .products .up_to_content h2{
+    .products .up_to_content h2 {
         color: var(--bg-white);
         font-size: 13px;
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50% , -50%);
+        transform: translate(-50%, -50%);
         z-index: 3;
-    } 
+    }
 
-    .special{
+    .special {
         padding: 4rem 0;
     }
 
-    .special .countdown-container .countdown-counter li{
+    .special .countdown-container .countdown-counter li {
         padding: 0.1rem;
         width: 18%;
     }
-    .testimonial .testimonial-wrapper{
+
+    .testimonial .testimonial-wrapper {
         padding: 1rem;
     }
 
     .testimonial .carousel-control-prev,
-    .testimonial .carousel-control-next{
+    .testimonial .carousel-control-next {
         display: none;
     }
-        
-      
-    
+
+    .copyright,
+    .copyright a {
+        font-size: 0.845rem;
+    }
+
+
+
 }
 
 
 @media (max-width:330px) {
-    .home .home-banner .home-banner-text h2{
+    .home .home-banner .home-banner-text h2 {
         font-size: 1rem;
     }
 
-    .products .up_to_content h2{
+    .products .up_to_content h2 {
         font-size: 0.635rem;
-    } 
+    }
 
 }
